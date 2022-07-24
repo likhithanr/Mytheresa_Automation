@@ -49,5 +49,5 @@ Ex: Open_Pull_Requests_20_23_55.csv
 ## Screenshots
 #### Test result snapshots
 ![App Screenshot](/cypress/Images/HtmlReport.png)
-![App Screenshot](/Images/RunStarting.png)
-![App Screenshot](/Images/TestReport.png)
+![App Screenshot](cypress/Images/RunStarting.png)
+![App Screenshot](cypress/Images/TestReport.png)
