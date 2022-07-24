@@ -41,6 +41,13 @@ This is a cypress framework designed to automate web application and backend API
 ### Downloading the open pull requests in CSV 
 
  ```bash
-  npm download:CSV 
+  npm run downloadOpenPulls
 ```
-Downloads the open pull requests in "downloads" under the project 
+Downloads the open pull requests in CSV format under "downloads" folder of the project
+Ex: Open_Pull_Requests_20_23_55.csv
+
+## Screenshots
+#### Test result snapshots
+![App Screenshot](/cypress/Images/HtmlReport.png)
+![App Screenshot](/Images/RunStarting.png)
+![App Screenshot](/Images/TestReport.png)
