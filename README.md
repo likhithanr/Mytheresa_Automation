@@ -1,5 +1,8 @@
 # Mytheresa Automation with Cypress
 
+## Author
+
+- [Likhitha N R](https://github.com/likhithanr)
 ## Overview
 This is a cypress framework designed to automate web application and backend API's using javascript. Cases covered are:
 * Javascript error validation on Mytheresa Web UI
