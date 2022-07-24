@@ -1,0 +1,24 @@
+{
+
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 50000,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "code": false,
+        "reportPageTitle": "Mytheresa Automation",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite":false,
+        "reportFilename": "CypressReport_[datetime]",
+        "reportTitle": "Mytheresa Automation",
+        "timestamp": "mm_dd_yyyy_HH_MM_ss"
+    },
+    "screenshotOnRunFailure": true,
+    "video": false,
+    "retries": { 
+        "runMode": 2,
+        "openMode": 0
+      }
+}
