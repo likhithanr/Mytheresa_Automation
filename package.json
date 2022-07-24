@@ -9,7 +9,8 @@
     "cy:run:test": "cypress run --env ENV=\"test\"",
     "cy:run:loc": "cypress run --env ENV=\"local\"",
     "cy:run:prod:chrome":"cypress run --env ENV=\"production\" --browser chrome",
-    "cy:run:prod:FF":"cypress run --env ENV=\"production\" --browser Firefox"
+    "cy:run:prod:FF":"cypress run --env ENV=\"production\" --browser Firefox",
+    "downloadOpenPulls":"cypress run --spec cypress/integration/testScripts/GetOpenGitPulls.js"
   },
   "author": "Likhitha N R",
   "license": "ISC",

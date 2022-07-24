@@ -9,7 +9,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
 
-describe('Validate category links', function (){
+describe('Validate category navigation links', function (){
     
     before(function () {
         cy.visit(URL,{
@@ -22,36 +22,36 @@ describe('Validate category links', function (){
     
     const mainPage = new MainPage();
 
-    it('Validate 200 status code for links in New Arrivals category', () => {
+    it('test links in New Arrivals category', () => {
         cy.validateLink(mainPage.getNewArrival());
          
     })
     
-    it('Validate 200 status code for links in Clothing category', () => {
+    it('test links in Clothing category', () => {
         cy.validateLink(mainPage.getClothing());
     })
 
-    it('Validate 200 status code for links in Shoes category', () => {
+    it('test links in Shoes category', () => {
         cy.validateLink(mainPage.getShoes());
     })
 
-    it('Validate 200 status code for links in Bags category', () => {
+    it('test links in Bags category', () => {
         cy.validateLink('.nav-primary > :nth-child(14)');
     })
 
-    it('Validate 200 status code for links in Accessories category', () => {
+    it('test links in Accessories category', () => {
         cy.validateLink(mainPage.getAccessories());
     })
 
-    it('Validate 200 status code for links in New season category', () => {
+    it('test links in New season category', () => {
         cy.validateLink(mainPage.getNewSeason());
     })
 
-    it('Validate 200 status code for links in vacation shop category', () => {
+    it('test vacation shop category', () => {
         cy.validateLink(mainPage.getVacation());
     })
     
-    it('Validate 200 status code for sale links', () => {
+    it('test links in salescategory', () => {
         cy.validateLink(mainPage.getSale());
     })
     

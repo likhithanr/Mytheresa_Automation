@@ -1,0 +1,68 @@
+PR_TITLE,CREATED_ON,AUTHOR
+fix for null issue during document create event,Sat Jul 23 2022,manishkumar-dsi
+Fixing 3583 - create team membership to return added person name and…,Sat Jul 23 2022,iifawzi
+feat: prepare 0.15.3,Fri Jul 22 2022,TorstenDittmann
+Simplify how we create exceptions,Fri Jul 22 2022,PineappleIOnic
+Remove unused property,Fri Jul 22 2022,lohanidamodar
+implementing new Utopia hooks,Fri Jul 22 2022,lohanidamodar
+Stopping state change on canceling confirm box,Thu Jul 21 2022,manishkumar-dsi
+Use co-routines for creating projects,Thu Jul 21 2022,PineappleIOnic
+master encryption filter,Thu Jul 21 2022,lohanidamodar
+Docs: updated the incorrect payload,Thu Jul 21 2022,imrishabh18
+Fix OAuth Create User event,Wed Jul 20 2022,PineappleIOnic
+Feat: Variables CRUD operations,Wed Jul 20 2022,Meldiron
+Fix teams roles no owner,Mon Jul 18 2022,abnegate
+Update instructions to generate new specifications,Sat Jul 16 2022,gewenyu99
+Feat implement stats server,Fri Jul 15 2022,PineappleIOnic
+Use 202 when resources are created asyncronously,Thu Jul 14 2022,PineappleIOnic
+Feat: Disqus OAuth Provider,Fri Jul 08 2022,2002Bishwajeet
+Adds Etsy to OAuth providers,Fri Jul 08 2022,wess
+Origin/datetime attributes,Fri Jul 08 2022,fogelito
+Feat token events,Mon Jul 04 2022,gepd
+cache cleanup,Sun Jul 03 2022,shimonewman
+Feat: Podio OAuth provider,Sat Jul 02 2022,Meldiron
+New usage stats,Wed Jun 29 2022,lohanidamodar
+Feat: Functions proxy,Mon Jun 27 2022,Meldiron
+Feat db pools,Thu Jun 23 2022,christyjacob4
+files cache key eviction,Mon Jun 13 2022,shimonewman
+WIP: Refactor listUsers,Wed Jun 08 2022,Meldiron
+WIP ci: add GitHub Action for tracking stale issues,Tue Jun 07 2022,brandonroberts
+Fix docs showing endpoint for client,Mon Jun 06 2022,Meldiron
+Feat : better initialization of storage libs,Fri Jun 03 2022,everly-gif
+Feat: Implemented bulk document creation,Thu May 26 2022,Shadowfita
+Add Rust to Platforms.php,Wed May 18 2022,PineappleIOnic
+Refactor s3 adapter calls,Sun May 08 2022,shimonewman
+feat: Add authentik as a OAuth provider,Thu May 05 2022,Aragur
+Fix: Default values,Sun May 01 2022,Meldiron
+Check and truncate stdout/stderr to max attribute size,Thu Apr 28 2022,abnegate
+Update getting started docs for swift async/await,Tue Apr 19 2022,abnegate
+docs: update the Code of Conduct to the latest version,Thu Apr 14 2022,Panquesito7
+Feat timestamp attribute,Mon Mar 28 2022,lohanidamodar
+project level secrets,Sun Mar 27 2022,lohanidamodar
+Create session from oAuth2 access token,Fri Mar 25 2022,lohanidamodar
+Show Stdout with build logs when build fails,Mon Mar 21 2022,PineappleIOnic
+WIP: Partially add devspace.yaml,Sat Mar 19 2022,karbowiak
+fix: specs with deeply nested models,Wed Mar 09 2022,TorstenDittmann
+update create magic url session doc,Sun Feb 27 2022,lohanidamodar
+Fix: Loader pointer event,Wed Feb 23 2022,Meldiron
+Feat 2772 allow turning off analytics,Thu Feb 10 2022,tzdev0
+Configurable recovery and account verify token duration,Wed Feb 09 2022,gigonzalezs
+feat: support managed redis 6+ userpass auth over TLS ,Wed Feb 09 2022,kodumbeats
+Added unrestricted permissions feature,Mon Feb 07 2022,acalatrava
+Password Hashing algos,Fri Feb 04 2022,Meldiron
+Feat-permissions-docs-update,Mon Jan 31 2022,eldadfux
+Feat 2701 wso2 oauth,Wed Jan 26 2022,leonansaraiva
+Proper 409 with customIDs,Thu Jan 20 2022,Meldiron
+Feat 401 OIDC auth,Mon Nov 29 2021,mKlooney
+Add missing translation (eo),Fri Nov 05 2021,ErfanBahramali
+Fixed Oauth2 port issue,Fri Oct 29 2021,dro-1
+Session duration implementation,Thu Oct 14 2021,Meldiron
+experiment(repo): add phpstan,Fri Oct 01 2021,TorstenDittmann
+Add HTTP Example Generation,Thu Sep 30 2021,PineappleIOnic
+Feat: enable SMTP debugging when not in production,Tue Sep 21 2021,kodumbeats
+Exceptions translations,Sat Sep 18 2021,Meldiron
+Add live reloader,Sat Sep 18 2021,Emiliaaah
+Feat-support-oauth-without-email,Wed Sep 15 2021,lohanidamodar
+WIP: Console translation,Thu Sep 02 2021,Meldiron
+Feat 410 bitrix24 oauth2 provider,Sun May 09 2021,it-delta
+Feat graphql support,Fri Mar 12 2021,christyjacob4

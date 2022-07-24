@@ -1,26 +1,25 @@
-class LoginPage{
-    
+class LoginPage {
 
-    getAccountLink()
-    {
+
+    getAccountLink() {
         return cy.get('#myaccount')
     }
 
-    getEmailTextField()
-    {
-        return cy.get('#qa-login-email > #email')
-    }
-    
-    getPasswordTextField()
-    {
-        return cy.get('#qa-login-password > #pass')
-    }
-
-    getLoginButton()
-    {
+    getLoginButton() {
         return cy.get('#qa-login-button > #send2')
     }
-        
+
+    getEmailTextField() {
+        return cy.get('#qa-login-email > #email')
     }
-    
-    export default LoginPage;
+
+    getPasswordTextField() {
+        return cy.get('#qa-login-password > #pass')
+    }
+    getUserTitle() {
+        return cy.get('.hello')
+    }
+
+}
+
+export default LoginPage;

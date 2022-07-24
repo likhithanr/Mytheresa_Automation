@@ -12,38 +12,30 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 describe('Validate links on main page', function (){
     
     before(function () {
-        cy.visit(URL,{
+        cy.visit("https://www.mytheresa.com/en-de/men.html",{
             headers:{ 
                 "Accept":"application/json,text/plain.*/*",
                 "User-Agent":"axios/0.18.0"
             },
-            timeout: 30000 
         });
       })
     
     const mainPage = new MainPage();
     
-    it('Validate 200 status code for links in header section', () => {
+    it('tst list of links on main page header section', () => {
 
-        cy.validateLink(mainPage.getDepartment());    
-        cy.validateLink(mainPage.getMetaList());      
-
-    })
-
-    it('Validate 200 status code for links in footer section', () => {
-
-        cy.validateLink(mainPage.getFooter());           
-        cy.validateLink(mainPage.getPaymentFooter());   
-        cy.validateLink(mainPage.getDeliveryFooter());  
-        cy.validateLink(mainPage.getImprintFooter());    
+        cy.validateLink(mainPage.getMainMenus());    
+        cy.validateLink(mainPage.getNonCategoryLinksList());      
 
     })
 
-    it('Validate 200 status code for links in main section', () => {
+    it('test the list of links on main page footer section', () => {
 
-        cy.validateLink(mainPage.getMainCol());     
+        cy.validateLink(mainPage.getFooterLinks());           
+        cy.validateLink(mainPage.getPaymentLink());   
+        cy.validateLink(mainPage.getDeliveryLink());  
+        cy.validateLink(mainPage.getImprintLink());    
 
     })
-
 
 })

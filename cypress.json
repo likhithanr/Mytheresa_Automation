@@ -1,7 +1,7 @@
 {
 
     "chromeWebSecurity": false,
-    "pageLoadTimeout": 50000,
+    "pageLoadTimeout": 80000,
     "reporter": "cypress-mochawesome-reporter",
     "reporterOptions": {
         "reportDir": "cypress/reports",
@@ -15,10 +15,6 @@
         "reportTitle": "Mytheresa Automation",
         "timestamp": "mm_dd_yyyy_HH_MM_ss"
     },
-    "screenshotOnRunFailure": true,
-    "video": false,
-    "retries": { 
-        "runMode": 2,
-        "openMode": 0
-      }
+    "screenshotOnRunFailure": true
+   
 }

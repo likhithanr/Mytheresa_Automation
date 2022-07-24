@@ -1,81 +1,54 @@
-class MainPage{
-    
+class MainPage {
 
-    getPrimaryNav()
-    {
-        return '.nav-primary';
-    }
 
-    getDepartment()
-    {
-        return '.meta-list-department';
-    }
-    
-    getMetaList()
-    {
-        return '.meta-list';
-    }
-
-    getFooter()
-    {
-        return '.footer-links';
-    }
-
-    getPaymentFooter()
-    {
-        return '#footer-payment';
-    }
-
-    getDeliveryFooter()
-    {
-        return '#footer-delivery';
-    }
-
-    getImprintFooter()
-    {
-        return '#imprint';
-    }
-    
-    getMainCol()
-    {
-        return '.col-main';
-    }
-
-    getNewArrival()
-    {
+    getNewArrival() {
         return '.nav-primary > :nth-child(10)';
     }
 
-    getClothing()
-    {
+    getClothing() {
         return ':nth-child(12)';
     }
 
-    getShoes()
-    {
+    getShoes() {
         return ':nth-child(13)';
     }
-    getBags()
-    {
-        return '.nav-primary > :nth-child(14)';
-    }
-    getAccessories()
-    {
+
+    getAccessories() {
         return ':nth-child(15)';
     }
-    getNewSeason()
-    {
+    getNewSeason() {
         return ':nth-child(16)';
     }
-    getVacation()
-    {
+    getVacation() {
         return '.nav-primary > :nth-child(17)';
     }
-    getSale()
-    {
+    getSale() {
         return '.active';
     }
-        
+    getMainMenus() {
+        return '.meta-list-department';
     }
-    
-    export default MainPage;
+
+    getNonCategoryLinksList() {
+        return '.meta-list';
+    }
+
+    getFooterLinks() {
+        return '.footer-links';
+    }
+
+    getPaymentLink() {
+        return '#footer-payment';
+    }
+
+    getDeliveryLink() {
+        return '#footer-delivery';
+    }
+
+    getImprintLink() {
+        return '#imprint';
+    }
+
+}
+
+export default MainPage;
