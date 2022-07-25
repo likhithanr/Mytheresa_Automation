@@ -28,6 +28,9 @@ This is a cypress framework designed to automate web application and backend API
 ```bash
   npm install 
 ```
+```bash
+  npm init initializer
+```
 * Running test
 ```bash
  npm run cy:run:<ENV>:<BROWSER>
